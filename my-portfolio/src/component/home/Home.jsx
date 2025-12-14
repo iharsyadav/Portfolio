@@ -1,5 +1,5 @@
 import "./Home.css"
-import Me from "../../assets/Me.jpg"
+import Me from "../../assets/me.jpg"
 import Socialheader from "./Socialheader"; 
 import { LuMouse } from "react-icons/lu";
 function Home(){
