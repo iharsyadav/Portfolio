@@ -1,4 +1,4 @@
-import "./home.css"
+import "./Home.css"
 import Me from "../../assets/Me.jpg"
 import Socialheader from "./Socialheader"; 
 import { LuMouse } from "react-icons/lu";
