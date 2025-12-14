@@ -1,0 +1,35 @@
+.about{
+    flex-direction: column;
+   
+}
+.about-container{
+      height: 100vh;
+}
+.about-box {
+  background: #ffffff;
+  padding: 30px;
+  border-radius: 12px;
+  margin-top: 40px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.08);
+}
+
+/* About text */
+.about-text {
+  font-size: 1rem;
+  color: #444;
+  line-height: 1.7;
+}
+
+/* Skill section spacing */
+.about-skill .skill-item {
+  margin-bottom: 20px;
+}
+
+/* Skill names */
+.skill-name {
+  font-size: 1.1rem;
+  margin-bottom: 6px;
+  color: #333;
+}
+
+

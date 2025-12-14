@@ -1,0 +1,29 @@
+.aside{
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    border-right: 1px solid rgb(255, 255, 255);
+    padding: 2rem;
+    width: 110px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 10;
+}
+.nav-mid{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0.5rem;
+}
+.copyright{
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    color: blueviolet;
+    font-size: small;
+    transform: rotate(-180deg);
+    writing-mode: vertical-rl;
+}

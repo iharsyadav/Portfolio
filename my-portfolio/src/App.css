@@ -1,0 +1,38 @@
+.main{
+    display: flex;
+    margin-left: 110px;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    height: 110hv;
+
+}
+.container-fluid{
+    margin: 0;
+    padding: 0;
+}
+*{
+     box-sizing: border-box;
+}
+
+
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}

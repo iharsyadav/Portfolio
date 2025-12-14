@@ -1,0 +1,52 @@
+.home-container{
+    background-color: rgb(255, 255, 255);
+      margin-left: 110px;
+}
+.intro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  color: #111;
+  margin-top: 10%;
+  
+}
+.intro-image {
+  width: 90px; /* reduce size */
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow: 0 6px 18px rgb(255, 255, 255);
+  flex-shrink: 0;
+  object-fit: cover;
+}
+/* Smaller image */
+.intro img {
+  width: 90px; /* reduce size */
+  height: 90px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+/* Smaller name */
+.home-name {
+  font-size: 1.8rem; /* was too large */
+  margin: 0;
+}
+
+/* Smaller subtitle */
+.home-education {
+  font-size: 0.9rem;
+  margin-top: 4px;
+}
+.socialbox {
+  gap: 0.5rem;
+}
+
+.mouse-scroll{
+    justify-content: center;
+    align-items: center;
+  
+    margin-top: 10rem;
+}
