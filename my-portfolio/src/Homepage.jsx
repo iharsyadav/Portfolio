@@ -3,7 +3,7 @@ import Home from "./component/home/Home";
 import About from "./component/about/About";
 import Contact from "./component/contact/Contact";
 import Portfolio from "./component/Portfolio/Portfolio";
-import Slidebar from "./component/slidebar/slidebar";
+import Slidebar from "./component/slidebar/Slidebar";
 import Otherskill from "./component/otherskill/Otherskill";
 const Homepage = () => {
   return (
